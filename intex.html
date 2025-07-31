@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cat Breeds</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Header -->
+  <header class="bg-indigo-700 text-white p-6 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-extrabold">Cat Breeds</h1>
+      <nav>
+        <ul class="flex space-x-6 text-lg">
+          <li><a href="#maine-coon" class="hover:underline">Maine Coon</a></li>
+          <li><a href="#siamese" class="hover:underline">Siamese</a></li>
+          <li><a href="#persian" class="hover:underline">Persian</a></li>
+          <li><a href="#ragdoll" class="hover:underline">Ragdoll</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container mx-auto p-6">
+    <h2 class="text-4xl font-semibold mb-10 text-center">Popular Cat Breeds</h2>
+    <section class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+      <!-- Maine Coon -->
+      <article id="maine-coon" class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+        <img src="https://cdn2.thecatapi.com/images/6qi.jpg" alt="Maine Coon" class="w-full h-48 object-cover" />
+        <div class="p-5">
+          <h3 class="text-2xl font-bold mb-2">Maine Coon</h3>
+          <p class="text-gray-700">One of the largest domesticated cats, known for its tufted ears and friendly nature.</p>
+        </div>
+      </article>
+
+      <!-- Siamese -->
+      <article id="siamese" class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+        <img src="https://cdn2.thecatapi.com/images/ai6Jps4sx.jpg" alt="Siamese" class="w-full h-48 object-cover" />
+        <div class="p-5">
+          <h3 class="text-2xl font-bold mb-2">Siamese</h3>
+          <p class="text-gray-700">Social and vocal cats with striking blue almond-shaped eyes and short coats.</p>
+        </div>
+      </article>
+
+      <!-- Persian -->
+      <article id="persian" class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+        <img src="https://cdn2.thecatapi.com/images/-Zfz5z2jZ.jpg" alt="Persian" class="w-full h-48 object-cover" />
+        <div class="p-5">
+          <h3 class="text-2xl font-bold mb-2">Persian</h3>
+          <p class="text-gray-700">Known for its long, luxurious fur and calm temperament, ideal lap cats.</p>
+        </div>
+      </article>
+
+      <!-- Ragdoll -->
+      <article id="ragdoll" class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+        <img src="https://cdn2.thecatapi.com/images/IBF6T0R4H.jpg" alt="Ragdoll" class="w-full h-48 object-cover" />
+        <div class="p-5">
+          <h3 class="text-2xl font-bold mb-2">Ragdoll</h3>
+          <p class="text-gray-700">Large, affectionate cats famous for going limp when held, with piercing blue eyes.</p>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-indigo-700 text-white text-center py-4 mt-12">
+    <p>&copy; 2025 Cat Breeds. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
