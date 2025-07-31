@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cat Breeds</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-indigo-600 text-white p-6 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">Cat Breeds</h1>
+      <nav>
+        <ul class="flex space-x-6 text-lg">
+          <li><a href="#maine-coon" class="hover:underline">Maine Coon</a></li>
+          <li><a href="#siamese" class="hover:underline">Siamese</a></li>
+          <li><a href="#persian" class="hover:underline">Persian</a></li>
+          <li><a href="#ragdoll" class="hover:underline">Ragdoll</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container mx-auto p-6">
+    <h2 class="text-4xl font-semibold mb-8 text-center">Popular Cat Breeds</h2>
+
+    <section class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      
+      <!-- Maine Coon -->
+      <article id="maine-coon" class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+        <img
+          src="https://cdn2.thecatapi.com/images/6qi.jpg"
+          alt="Maine Coon"
+          class="w-full h-48 object-cover"
+        />
+        <div class="p-4">
+          <h3 class="text-2xl font-bold mb-2">Maine Coon</h3>
+          <p class="text-gray-600">
+            Known for its large size and tufted ears, Maine Coons are friendly, intelligent, and great family pets.
+          </p>
+        </div>
+      </article>
+
+      <!-- Siamese -->
+      <article id="siamese" class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+        <img
+          src="https://cdn2.thecatapi.com/images/ai6Jps4sx.jpg"
+          alt="Siamese"
+          class="w-full h-48 object-cover"
+        />
+        <div class="p-4">
+          <h3 class="text-2xl font-bold mb-2">Siamese</h3>
+          <p class="text-gray-600">
+            Siamese cats are social, vocal, and love to be the center of attention with their striking blue eyes.
+          </p>
+        </div>
+      </article>
+
+      <!-- Persian -->
+      <article id="persian" class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+        <img
+          src="https://cdn2.thecatapi.com/images/-Zfz5z2jZ.jpg"
+          alt="Persian"
+          class="w-full h-48 object-cover"
+        />
+        <div class="p-4">
+          <h3 class="text-2xl font-bold mb-2">Persian</h3>
+          <p class="text-gray-600">
+            Persians have long luxurious fur and a calm, gentle personality, making them perfect lap cats.
+          </p>
+        </div>
+      </article>
+
+      <!-- Ragdoll -->
+      <article id="ragdoll" class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+        <img
+          src="https://cdn2.thecatapi.com/images/IBF6T0R4H.jpg"
+          alt="Ragdoll"
+          class="w-full h-48 object-cover"
+        />
+        <div class="p-4">
+          <h3 class="text-2xl font-bold mb-2">Ragdoll</h3>
+          <p class="text-gray-600">
+            Ragdolls are large, affectionate cats known for going limp when picked up and their striking blue eyes.
+          </p>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-indigo-600 text-white text-center p-4 mt-12">
+    <p>&copy; 2025 Cat Breeds. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
